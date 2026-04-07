@@ -1,12 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainLayout from './components/layout/MainLayout';
-import AdminLayout from './components/layout/AdminLayout';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import MainLayout from './components/layout/MainLayout.tsx';
+import AdminLayout from './components/layout/AdminLayout.tsx';
 
-import Home from './pages/Home';
-import Products from './pages/Products';
-import Specials from './pages/Specials';
-import Checkout from './pages/Checkout';
-import Dashboard from './pages/admin/Dashboard';
+import Home from './pages/Home.tsx';
+import Products from './pages/Products.tsx';
+import Specials from './pages/Specials.tsx';
+import Checkout from './pages/Checkout.tsx';
+import Dashboard from './pages/admin/Dashboard.tsx';
 
 function App() {
   return (

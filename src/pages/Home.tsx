@@ -21,7 +21,7 @@ const Home = () => {
             </div>
           </div>
           <div className="hero-image-container">
-            <img src="/images/hero.png" alt="Delicious Sweets Assortment" className="hero-image-main" />
+            <img src={`${import.meta.env.BASE_URL}images/hero.png`} alt="Delicious Sweets Assortment" className="hero-image-main" />
           </div>
         </div>
       </section>
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
           <div className="products-grid mt-4">
             <div className="product-card card">
-              <img src="/images/kaju_katli.png" alt="Kaju Katli" className="product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/kaju_katli.png`} alt="Kaju Katli" className="product-img" />
               <div className="product-info">
                 <h3>Kaju Katli</h3>
                 <div className="flex justify-between items-center mt-2">
@@ -69,7 +69,7 @@ const Home = () => {
               </div>
             </div>
             <div className="product-card card">
-              <img src="/images/laddoo.png" alt="Motichoor Laddoo" className="product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/laddoo.png`} alt="Motichoor Laddoo" className="product-img" />
               <div className="product-info">
                 <h3>Motichoor Laddoo</h3>
                 <div className="flex justify-between items-center mt-2">
@@ -79,7 +79,7 @@ const Home = () => {
               </div>
             </div>
             <div className="product-card card">
-              <img src="/images/mixture.png" alt="Spicy Mixture" className="product-img" />
+              <img src={`${import.meta.env.BASE_URL}images/mixture.png`} alt="Spicy Mixture" className="product-img" />
               <div className="product-info">
                 <h3>Spicy Mixture</h3>
                 <div className="flex justify-between items-center mt-2">

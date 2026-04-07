@@ -15,7 +15,7 @@ const Specials = () => {
           {/* Main Special */}
           <div className="card flex items-center gap-4 special-banner" style={{ background: 'linear-gradient(135deg, #fef08a 0%, #fde047 100%)', border: '1px solid #eab308' }}>
             <div className="special-img" style={{ flex: 1, height: '100%', borderRadius: 'var(--radius-md)', display: 'flex', overflow: 'hidden' }}>
-              <img src="/images/royal_box.png" alt="Royal Assortment Box" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src={`${import.meta.env.BASE_URL}images/royal_box.png`} alt="Royal Assortment Box" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <div className="special-content" style={{ flex: 1, padding: '2rem' }}>
               <div style={{ display: 'inline-flex', padding: '0.5rem 1rem', background: '#854d0e', color: 'white', borderRadius: '20px', marginBottom: '1rem', fontSize: '0.875rem', fontWeight: 'bold' }}>

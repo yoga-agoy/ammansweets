@@ -2,12 +2,12 @@ import { useState } from 'react';
 import './products.css';
 
 const MOCK_PRODUCTS = [
-  { id: 1, name: 'Premium Kaju Katli', category: 'Sweets', price: 900, originalPrice: 1000, discount: 10, image: '/images/kaju_katli.png' },
-  { id: 2, name: 'Motichoor Laddoo', category: 'Sweets', price: 450, originalPrice: 500, discount: 10, image: '/images/laddoo.png' },
-  { id: 3, name: 'Mysore Pak', category: 'Sweets', price: 650, originalPrice: 650, discount: 0, image: '/images/kaju_katli.png' },
-  { id: 4, name: 'Mixture (Spicy)', category: 'Savory', price: 300, originalPrice: 350, discount: 15, image: '/images/mixture.png' },
-  { id: 5, name: 'Milk Peda', category: 'Sweets', price: 550, originalPrice: 600, discount: 8, image: '/images/laddoo.png' },
-  { id: 6, name: 'Butter Murukku', category: 'Savory', price: 280, originalPrice: 280, discount: 0, image: '/images/mixture.png' },
+  { id: 1, name: 'Premium Kaju Katli', category: 'Sweets', price: 900, originalPrice: 1000, discount: 10, image: import.meta.env.BASE_URL + 'images/kaju_katli.png' },
+  { id: 2, name: 'Motichoor Laddoo', category: 'Sweets', price: 450, originalPrice: 500, discount: 10, image: import.meta.env.BASE_URL + 'images/laddoo.png' },
+  { id: 3, name: 'Mysore Pak', category: 'Sweets', price: 650, originalPrice: 650, discount: 0, image: import.meta.env.BASE_URL + 'images/kaju_katli.png' },
+  { id: 4, name: 'Mixture (Spicy)', category: 'Savory', price: 300, originalPrice: 350, discount: 15, image: import.meta.env.BASE_URL + 'images/mixture.png' },
+  { id: 5, name: 'Milk Peda', category: 'Sweets', price: 550, originalPrice: 600, discount: 8, image: import.meta.env.BASE_URL + 'images/laddoo.png' },
+  { id: 6, name: 'Butter Murukku', category: 'Savory', price: 280, originalPrice: 280, discount: 0, image: import.meta.env.BASE_URL + 'images/mixture.png' },
 ];
 
 const Products = () => {
